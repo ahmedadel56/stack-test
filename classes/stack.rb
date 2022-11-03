@@ -1,7 +1,8 @@
 # Create a class "Stack" that exposes the following characteristics:
 class Stack
   attr_reader :arr
-  def initialize (*args)
+
+  def initialize(*args)
     @arr = args || []
   end
 
