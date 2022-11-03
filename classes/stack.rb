@@ -1,7 +1,8 @@
 # Create a class "Stack" that exposes the following characteristics:
 class Stack
-  def initialize
-    @arr = []
+  attr_reader :arr
+  def initialize (*args)
+    @arr = args || []
   end
 
   # • A public method called "push" that receives an unsigned integer number as parameter.
