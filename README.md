@@ -7,7 +7,7 @@
 Before we start, make sure you fit the prerequisites
 
 ### Setup
-- git clone `https://github.com/ahmedadel56/stack-test`
+- git clone `https://github.com/ahmedadel56/stack-test.git`
   
 ### Install
 - `bundle install`
